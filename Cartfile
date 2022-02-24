@@ -1,12 +1,12 @@
-github "DeclarativeHub/Bond" ~> 7.0
-github "DeclarativeHub/ReactiveKit" ~> 3.0
-github "SnapKit/SnapKit" ~> 5.0
-github "Swinject/Swinject" ~> 2.7
-github "Swinject/SwinjectAutoregistration" ~> 2.7
-github "scenee/FloatingPanel" ~> 2.0
-github "scinfu/SwiftSoup" ~> 2.2
-github "apple/swift-protobuf" ~> 1.0
-github "youtube/youtube-ios-player-helper" "5882789964ab7876c6a91dc905669535c0a90f92"
-github "microsoft/appcenter-sdk-apple" ~> 4.0
-github "Alamofire/Alamofire" ~> 4.9.1
-github "weichsel/ZIPFoundation" ~> 0.9.12
+#github "DeclarativeHub/Bond" ~> 7.0
+#github "DeclarativeHub/ReactiveKit" ~> 3.0
+#github "SnapKit/SnapKit" ~> 5.0
+#github "Swinject/Swinject" ~> 2.7
+#github "Swinject/SwinjectAutoregistration" ~> 2.7
+#github "scenee/FloatingPanel" ~> 2.0
+#github "scinfu/SwiftSoup" ~> 2.2
+#github "apple/swift-protobuf" ~> 1.0
+#github "youtube/youtube-ios-player-helper" "5882789964ab7876c6a91dc905669535c0a90f92"
+#github "microsoft/appcenter-sdk-apple" ~> 4.0
+#github "Alamofire/Alamofire" ~> 4.9.1
+#github "weichsel/ZIPFoundation" ~> 0.9.12

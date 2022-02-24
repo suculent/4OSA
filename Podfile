@@ -10,17 +10,17 @@ target 'OSA' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'youtube-ios-player-helper', :git => 'https://github.com/youtube/youtube-ios-player-helper', :commit => '5882789964ab7876c6a91dc905669535c0a90f92'
-  
-  pod 'Bond', '~> 7.0.0' # transitive deps: Differ, ReactiveKit
-  pod 'SnapKit', '~> 5.0'
-  pod 'Swinject', '~> 2.7'
-  pod 'SwinjectAutoregistration', '~> 2.7'
-  pod 'FloatingPanel', '~> 2.0' # 2.3.1 is latest
-  pod 'SwiftSoup', '2.2'
-  pod 'SwiftProtobuf'
-  pod 'AppCenter', '~> 4.3'
-  pod 'Alamofire', '~> 4.9.1'
-  pod 'ZIPFoundation', '~> 0.9.12'
+  pod 'zxcvbn-ios', '1.0.4'
+  pod 'AuthenticationManager', '~> 0.1.0' # should be 0.3.0
+  pod 'objective-zip', '1.0.5' # DEPRECATED
+  pod 'SkyFloatingLabelTextField', '3.8.0' # old
+  pod 'SVProgressHUD', '2.1.2'
+  pod 'MSAL', '~> 1.1.7'
+  pod 'Objection', '~> 1.6'  
+  pod 'CBOR', '~> 0.2'
+  pod 'FormatterKit', '~> 1.9'
+  pod 'JOSESwift', '~> 2.4'
+  pod 'ReactiveObjC', '~> 3.1'
+  pod 'AFNetworking', '3.2.1'
 
 end
