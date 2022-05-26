@@ -11,19 +11,16 @@ target 'OSA' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'CombineExt', '~> 1.5'
+  pod 'Adjust', '4.23.2'
+  pod 'Alamofire', '4.7.3'
+  pod 'AlamofireObjectMapper', '~> 5.1.0'
+  pod 'AppAuth', '0.95.0'
+  pod 'Charts', '3.6.0'
+  pod 'ObjectMapper', '3.3.0'
+  pod 'PhraseSDK', '2.2.1'
+  pod 'RxCocoa', '5.1.1'
+  pod 'RxRelay', '5.1.1'
+  pod 'RxSwift', '5.1.1'
 
-  pod 'FirebaseCore', '~> 8.12'
-
-  pod 'GoogleDataTransport', '~> 9.1'
-  pod 'GoogleUtilities', '~> 7.7'
-
-  pod 'MDFInternationalization', '~> 3.0'
-  pod 'MDFTextAccessibility', '~> 2.0'
-
-  pod 'MaterialComponents', '~> 124.2'
-  pod 'Reusable', '~> 4.1'
-  pod 'SnapKit', '~> 5.0'
-  pod 'nanopb', '~> 2.30908'
 
 end
