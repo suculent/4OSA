@@ -104,6 +104,7 @@
 				8810A9E2255EBD9A00438BDD /* Frameworks */,
 				8810A9E3255EBD9A00438BDD /* Resources */,
 				73D485E4E4D4EBCF67DD7065 /* [CP] Embed Pods Frameworks */,
+				E0D0771CF82427DBFD40B7AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +198,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSA/Pods-OSA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D0771CF82427DBFD40B7AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OSA/Pods-OSA-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OSA/Pods-OSA-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSA/Pods-OSA-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
